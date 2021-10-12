@@ -18,11 +18,15 @@ body {
   line-height: 1.5em;
 }
 .container {
-  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 440px;
   margin: 50px auto;
-  background: #fff;
+  background: var(--primary-color-darker);
   padding: 20px;
   border-radius: 10px;
+  
 }
 form input,
 form label,
@@ -53,6 +57,9 @@ form button {
 }
 form button:hover {
   background: var(--primary-color-darker);
+}
+h1{
+  color: rgb(89, 159, 206);
 }
 
 .calculator{
