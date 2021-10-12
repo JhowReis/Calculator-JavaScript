@@ -54,3 +54,37 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
+
+.calculator{
+  width: 400px;
+}
+
+.display{
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  border: 2px solid #dfdfdfdf;
+}
+.display:focus{
+  border: 2px solid #000000df;
+  
+}
+.btn{
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background: #dfdfdfdf;
+  cursor: pointer;
+}
+.btn:hover{
+  background: #b1b1b1df;
+}
+
+.btn-equal{
+  background: rgb(89, 159, 206);
+}
+.btn-equal:hover{
+  background: rgb(6, 87, 141);
+  color:#fff;
+}
